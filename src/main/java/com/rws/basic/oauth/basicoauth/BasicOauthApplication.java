@@ -7,7 +7,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 
-import static java.lang.System.exit;
 
 @SpringBootApplication
 @EnableOAuth2Sso
@@ -32,6 +31,6 @@ public class BasicOauthApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         basicGetRequest.makeGetRequest();
-        exit(0);
+   //     exit(0);
     }
 }
