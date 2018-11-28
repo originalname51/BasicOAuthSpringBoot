@@ -1,5 +1,5 @@
 rest.endpoint.configuration:
-  baseUrl: endpoint goes here
+  endPointUrl: endpoint goes here
   oauth2:
     client:
       grantType: client_credentials
