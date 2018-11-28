@@ -1,0 +1,8 @@
+rest.endpoint.configuration:
+  baseUrl: endpoint goes here
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: {client id}
+      clientSecret: {client secret}
+      accessTokenUri: {acces token uri}

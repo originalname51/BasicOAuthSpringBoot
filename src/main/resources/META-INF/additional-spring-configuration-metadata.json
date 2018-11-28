@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "rest.endpoint.configuration.baseUrl",
+      "type": "java.lang.String",
+      "description": "Description for rest.endpoint.configuration.baseUrl."
+    },
+    {
+      "name": "rest.endpoint.configuration.oauth2.client.grantType",
+      "type": "java.lang.String",
+      "description": "Description for rest.endpoint.configuration.oauth2.client.grantType."
+    },
+    {
+      "name": "rest.endpoint.configuration.oauth2.client.clientSecret",
+      "type": "java.lang.String",
+      "description": "Description for rest.endpoint.configuration.oauth2.client.clientSecret."
+    },
+    {
+      "name": "rest.endpoint.configuration.oauth2.client.accessTokenUri",
+      "type": "java.lang.String",
+      "description": "Description for rest.endpoint.configuration.oauth2.client.accessTokenUri."
+    }
+  ] }
